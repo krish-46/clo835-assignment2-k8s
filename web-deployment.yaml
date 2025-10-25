@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: web-app-container
-        image: employees-web:1.0
+        image: employees-web:2.0
         ports:
         - containerPort: 8080
         env:
